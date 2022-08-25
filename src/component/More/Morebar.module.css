@@ -1,0 +1,31 @@
+.more {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  height: 100%;
+}
+.more-title {
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding:18px;
+}
+
+.league{
+  display: flex;
+  align-items: center;
+  margin-top:30px;
+  cursor: pointer;
+}
+.league-name{
+  margin-left: 20px;
+  font-weight: 500;
+}
+.league-icon {
+  margin-left:18px;
+}
+.league-icon img {
+  width: 40px;
+  height: 50px;
+}

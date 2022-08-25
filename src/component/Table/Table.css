@@ -1,0 +1,13 @@
+.League-title{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.League-data{
+  padding: 50px;
+  margin:50px;
+}

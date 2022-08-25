@@ -1,0 +1,10 @@
+.tap {
+  background-color: gainsboro;
+}
+.tap_button {
+  padding: 10px 12px;
+  margin: 8px;
+}
+.tap_button:active {
+  color:blueviolet
+}
