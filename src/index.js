@@ -5,15 +5,15 @@ import { Provider } from "react-redux";
 import './index.css';
 import App from './App';
 import './fontawesome';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
 <React.StrictMode>
 <Provider store={store}>
-<HashRouter>
+<BrowserRouter basename={process.env.PUBLIC_URL}>
    <App />
-</HashRouter>
+</BrowserRouter>
 </Provider>
 </React.StrictMode>
 );
