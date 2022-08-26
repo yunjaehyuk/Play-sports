@@ -1,14 +1,16 @@
 {
-  "files": {
-    "main.css": "/project2/static/css/main.788dfeb5.css",
-    "main.js": "/project2/static/js/main.c554a27a.js",
-    "static/media/messi.jpg": "/project2/static/media/messi.49ec1d4b69c2ce8bfdc4.jpg",
-    "index.html": "/project2/index.html",
-    "main.788dfeb5.css.map": "/project2/static/css/main.788dfeb5.css.map",
-    "main.c554a27a.js.map": "/project2/static/js/main.c554a27a.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.788dfeb5.css",
-    "static/js/main.c554a27a.js"
-  ]
+  "main.css": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/css/main.967cd25d.chunk.css",
+  "main.js": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/js/main.2acb8a58.chunk.js",
+  "main.js.map": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/js/main.2acb8a58.chunk.js.map",
+  "static/css/1.c500c683.chunk.css": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/css/1.c500c683.chunk.css",
+  "static/js/1.642af11f.chunk.js": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/js/1.642af11f.chunk.js",
+  "static/js/1.642af11f.chunk.js.map": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/js/1.642af11f.chunk.js.map",
+  "runtime~main.js": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/js/runtime~main.92114eb2.js",
+  "runtime~main.js.map": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/js/runtime~main.92114eb2.js.map",
+  "static/media/HomeNews.css": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/media/messi.58d74e0d.jpg",
+  "static/css/main.967cd25d.chunk.css.map": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/css/main.967cd25d.chunk.css.map",
+  "static/css/1.c500c683.chunk.css.map": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/css/1.c500c683.chunk.css.map",
+  "index.html": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/index.html",
+  "precache-manifest.33a241de520c31144ab43788ed61ddb8.js": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/precache-manifest.33a241de520c31144ab43788ed61ddb8.js",
+  "service-worker.js": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/service-worker.js"
 }
