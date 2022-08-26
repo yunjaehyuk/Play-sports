@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/static/media/messi.58d74e0d.jpg"
   },
   {
-    "revision": "2287120bd3a9f842fdbe79c0844e39fa",
+    "revision": "ed73bc981e7626e91ba87f5a7a3208f0",
     "url": "%7Byunjaehyuk%7D.github.io/%7Bproject2%7D/index.html"
   }
 ];
