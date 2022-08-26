@@ -1,15 +1,15 @@
 import BackHeader from '../layout/BackHeader';
 import Card from '../UI/Card';
-import { useSelector } from "react-redux"
+import React, { useSelector } from "react"
 import TableFilter from "../component/Table/TableFilter";
-import Navbar from "../layout/Navbar";
 import TableBundes from  '../component/Table/TableBundes'
 function Bundes(props) {
   let state = useSelector((state) =>state )
 
   return(
-<div className='League'>
-  <Card>
+<div>
+
+  <Card className='League'>
  <BackHeader navigate={props.navigate}></BackHeader>
  <TableFilter></TableFilter>
  <TableBundes></TableBundes>
