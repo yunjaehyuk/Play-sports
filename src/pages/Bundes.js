@@ -12,7 +12,7 @@ function Bundes(props) {
   <Card className='League'>
  <BackHeader navigate={props.navigate}></BackHeader>
  <TableFilter></TableFilter>
- <TableBundes></TableBundes>
+ <TableBundes> card</TableBundes>
 </Card>
 </div>
 
