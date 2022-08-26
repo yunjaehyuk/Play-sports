@@ -10,8 +10,8 @@ const Profile2 = (props) => {
     {state.profile[1].title}
     </div>
     <div className="profile">
-    {state.profile[1].image}
       <div className="reporter"> 
+      
       <div className="reporter_name">
       {state.profile[1].name}
           </div>

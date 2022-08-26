@@ -10,7 +10,6 @@ function SerieA(props) {
  <BackHeader navigate={props.naviagte}></BackHeader>
  <TableFilter></TableFilter>
  <TableSerieA></TableSerieA>
- <Navbar navigate={props.navigate}></Navbar>
 </Card>
   )
 }

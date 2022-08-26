@@ -12,11 +12,11 @@ const BackHeader = () => {
     <Fragment>
       <header className={classes.header}>
 
-        <Navbar className={classes.arrowicon}variant="light">
-          <Container>
-            <div onClick={() => {
+        <Navbar onClick={() => {
                 navigate(-1);
-              }}>
+              }}className={classes.arrowicon}variant="light">
+          <Container className={classes.backarrowicon}>
+            <div >
             <FontAwesomeIcon icon={faArrowLeft} size="2x" />
             </div>
   

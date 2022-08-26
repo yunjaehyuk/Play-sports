@@ -12,7 +12,7 @@ const Sports = () => {
   return (
     <React.Fragment>
 
-    <div onClick={()=>{navigate('/MainNews')}}>
+    <div className={['HomeNews']}onClick={()=>{navigate('/MainNews')}}>
     <div className={['main-bg']}></div>
     <div className={['subject']} >
       <div className={['subject_icon']}>

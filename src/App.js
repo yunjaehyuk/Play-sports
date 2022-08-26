@@ -3,6 +3,7 @@ import React, { useState, Fragment } from 'react';
 import { Route,Routes, useNavigate } from 'react-router-dom';
 import Layout from './layout/Layout';
 import Home from './pages/Home'
+import Login from './pages/Login'
 import Game from './pages/Game'
 import More from './pages/More'
 import MainNews from './pages/MainNews'
@@ -11,9 +12,7 @@ import Epl from './pages/Epl';
 import LaLiga from './pages/LaLiga';
 import Bundes from './pages/Bundes';
 import SerieA from './pages/SerieA';
-import Login from './pages/Login'
-import Calendar from './component/Calendar/Calendar';
-import News from './pages/News';
+import Calendar from './pages/Calendar';
 import News1 from './pages/News1';
 import News2 from './pages/News2';
 import News3 from './pages/News3';
@@ -28,10 +27,10 @@ const App = () => {
     <Layout>
       <Routes>
       <Route path='/' element={<Home/>}/>
+      <Route path='/Login' element={<Login/>}/>
       <Route path='/Game' element={<Game navigate={navigate} />}/>
       <Route path='/More' element={<More navigate={navigate}/>}/>
       <Route path='/MainNews' element={<MainNews/>}/>
-      <Route path='/News:id' element={<News/>}/>
       <Route path='/News1' element={<News1/>}/>
       <Route path='/News2' element={<News2/>}/>
       <Route path='/News3' element={<News3/>}/>

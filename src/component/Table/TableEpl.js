@@ -1,11 +1,12 @@
 import React from "react";
 import {Table} from 'react-bootstrap';
 import { useSelector } from "react-redux"
+import './Table.css'
 const TableEpl = () => {
   let state = useSelector((state) =>state )
   return(
     <div>
-<Table className='League-table'>
+<Table className='Table'>
   <thead>
   </thead>
   <thead>
@@ -24,8 +25,8 @@ const TableEpl = () => {
   <tbody>
   {
     state.cart.map((a, i)=>
-      <tr key={i}>
-        <td className='League-data'>
+      <tr className='Table_rank' key={i}>
+        <td >
           <td>
           {state.cart[i].rank}
           </td>

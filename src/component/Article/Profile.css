@@ -1,0 +1,12 @@
+.topnews_title{
+  margin-top: 100px;
+}
+
+
+.profile
+ {display:flex;
+  justify-content: space-between;
+}
+.reporter_name {
+  margin-right:200px
+}

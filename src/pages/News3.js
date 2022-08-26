@@ -2,7 +2,7 @@ import React from "react";
 import BackHeader from "../layout/BackHeader"
 import Article3 from "../component/Article/Article3";
 import Profile3 from "../component/Article/Profile3";
-const News3 = (props) => {
+const News3 = () => {
   return (
 
     <React.Fragment>

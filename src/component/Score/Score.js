@@ -1,36 +1,35 @@
 import React, {useState} from "react";
-import Card from "../../UI/Card";
 import { Nav } from 'react-bootstrap'
 import TabScore from "./TabScore";
 import classes from './Score.module.css'
-import Button from "../../UI/Button";
+import TapButton from "../../UI/TapButton";
 const Score = () => {
   let [tap ,setTap] = useState(0)
   return (
     <React.Fragment>
 
-    <div className={classes.tap}>
+    <div  className={classes.tap}>
     <Nav  variant="tabs" defaultActiveKey="link0">
     <div className={classes['tap_button']}>
-    <Button eventKey="link0" onClick={() => {
+    <TapButton eventKey="link0" onClick={() => {
       setTap(0)
-      }}>EPL</Button>
+      }}>EPL</TapButton>
     </div>
-    <div className={classes['tap_button']}>
-      <Button onClick={() => {
+    <div className={classes.tap_button}>
+      <TapButton onClick={() => {
         setTap(1)
       }}
-      eventKey="link1">LaLiga</Button>
+      eventKey="link1">LaLiga</TapButton>
     </div>
     <div className={classes['tap_button']}>
-      <Button eventKey="link2" onClick={() => {
+      <TapButton eventKey="link2" onClick={() => {
         setTap(2)
-      }}>BundesLiga</Button>
+      }}>BundesLiga</TapButton>
     </div>
     <div className={classes['tap_button']}>
-      <Button eventKey="link3" onClick={() => {
+      <TapButton eventKey="link3" onClick={() => {
         setTap(3)
-      }}>SerieA</Button>
+      }}>SerieA</TapButton>
     </div>
 </Nav>
   </div>

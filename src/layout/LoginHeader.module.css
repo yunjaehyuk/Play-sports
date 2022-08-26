@@ -18,9 +18,8 @@
 .arrowicon {
   color:white
 }
-.arrowicon:hover{
+.arrowicon:hover {
   border-radius: 25px;
   color:white;
   background-color: #B2B2B2;
-  margin-left: 3px;
 }

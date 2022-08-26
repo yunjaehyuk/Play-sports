@@ -7,17 +7,17 @@ const Profile = (props) => {
     <React.Fragment>
   <div>
     <div className='topnews_title'>
-    {state.profile[1].title}
+    {state.profile[0].title}
     </div>
     <div className="profile">
-    {state.profile[1].image}
+    {state.profile[0].image}
       <div className="reporter"> 
       <div className="reporter_name">
-      {state.profile[1].name}
+      {state.profile[0].name}
           </div>
       </div>
     <div className="news_time">
-    {state.profile[1].time}
+    {state.profile[0].time}
       </div>
       </div>
     </div>

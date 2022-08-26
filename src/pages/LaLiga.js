@@ -12,7 +12,6 @@ function LaLiga(props) {
     <BackHeader navigate={props.naviagte}></BackHeader>
     <TableFilter></TableFilter>
     <TableLaliga></TableLaliga>
-    <Navbar navigate={props.navigate}></Navbar>
    </Card>
   )
 }

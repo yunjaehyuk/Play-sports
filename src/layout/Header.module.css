@@ -1,5 +1,5 @@
 .header{
-  background-color:#38023D;
+  background-color: #38023D; 
   top: 0;
   left: 0;
   right:0;
@@ -26,6 +26,12 @@
   color: white;
   
 }
-.headerglassicon {
- margin-right: 15px;
+
+.headerusericon{
+  margin-right: 5px;
+  padding: 13px 16px;
+}
+.headerusericon:hover{
+  border-radius: 28px;
+  background-color: #b2b2b2;
 }

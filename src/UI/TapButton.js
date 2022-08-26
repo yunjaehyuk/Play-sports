@@ -1,8 +1,8 @@
 import React from 'react';
 
-import classes from './Button.module.css';
+import classes from './TapButton.module.css';
 
-const Button = (props) => {
+const TapButton = (props) => {
   return (
     <button
       type={props.type || 'button'}
@@ -15,4 +15,4 @@ const Button = (props) => {
   );
 };
 
-export default Button;
+export default TapButton;

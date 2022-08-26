@@ -13,7 +13,6 @@ function Bundes(props) {
  <BackHeader navigate={props.navigate}></BackHeader>
  <TableFilter></TableFilter>
  <TableBundes></TableBundes>
- <Navbar navigate={props.navigate}></Navbar>
 </Card>
 </div>
 

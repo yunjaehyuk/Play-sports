@@ -1,5 +1,4 @@
 .more {
-  margin-top: 10px;
   margin-bottom: 50px;
   height: 100%;
 }
@@ -11,12 +10,14 @@
   font-weight: 700;
   padding:18px;
 }
-
+.league:hover{
+ background-color: #d6d6d6;
+}
 .league{
   display: flex;
   align-items: center;
-  margin-top:30px;
   cursor: pointer;
+  padding: 15px 0px;
 }
 .league-name{
   margin-left: 20px;

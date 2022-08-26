@@ -11,7 +11,7 @@ function Epl(props) {
         <BackHeader navigate={props.navigate}></BackHeader>
         <TableFilter></TableFilter>
         <TableEpl></TableEpl>
-        <Navbar navigate={props.navigate}></Navbar>
+     
       </Card>
     </React.Fragment>
   );

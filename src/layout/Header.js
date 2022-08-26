@@ -32,10 +32,8 @@ const Header = () => {
               <Nav.Link href="#home"></Nav.Link>
               <Nav.Link href="#features"></Nav.Link>
               <div className={classes.headericon}>
-                <div className={classes.headerglassicon}>
-                  <FontAwesomeIcon icon={faMagnifyingGlass} size="2x" />
-                </div>
-                <div className={classes.headerusericon}>
+ 
+                <div className={classes.headerusericon} onClick={()=>{navigate('/Login')}}>
                   <FontAwesomeIcon icon={faUser} size="2x" />
                 </div>
               </div>
