@@ -1,4 +1,4 @@
-<img src="playlogo.png">
+<img src="playlogo.jpg">
 
 ### Introduce
 
