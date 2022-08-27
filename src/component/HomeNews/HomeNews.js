@@ -73,12 +73,7 @@ const Sports = () => {
     </div>
       <span>UFC 276: 이스라엘 아데산야, 자레드 캐노니어 꺾고 미들급 타이틀 유지</span>
       </div>
-      <div className={['SportTopNews']}onClick={()=>{navigate('/News6')}}>
-      <div className={['SportTopNews_icon']}>
-    <FontAwesomeIcon icon={faBars} size = 'xl'/>
-    </div>
-     <span>인도서 '몸 값' 7兆 뚫었다…크리켓 경기 중계권이 뭐길래</span>
-      </div>
+      
   </div>
   </div>
   <div>
