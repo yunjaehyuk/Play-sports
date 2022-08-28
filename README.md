@@ -1,4 +1,4 @@
-<img src="playlogo.jpg">
+<img src="Img/playlogo.jpg">
 
 ### Introduce
 
@@ -35,3 +35,8 @@ state 끌어올리기
 입력 정보 유효성 확인
 
 로컬 스토리지 로그인, 로그아웃
+
+
+<img src="Img/Home.jpg">
+<img src="Img/Game.jpg">
+<img src="Img/More.jpg">
