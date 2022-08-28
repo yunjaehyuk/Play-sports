@@ -36,11 +36,18 @@ state 끌어올리기
 
 로컬 스토리지 로그인, 로그아웃
 
-
-<img src="./Image/home.jpg"/>
-<img src="./Image/News.jpg"/>
-<img src="./Image/Login.jpg"/>
-<img src="./Image/Logout.jpg"/>
-<img src="Image/Game.jpg"/>
-<img src="Image/More.jpg"/>
-<img src="Image/Table.jpg"/>
+<figure class="half">
+<img src="./Image/home.jpg" width=280 height=300/>
+<img src="./Image/News.jpg" width=280 height=300/>
+</figure>
+<figure class="half">
+<img src="./Image/Login.jpg" width=280 height=300/>
+<img src="./Image/Logout.jpg" width=280 height=300/>
+</figure>
+<figure class="half">
+<img src="Image/Game.jpg" width=280 height=300/>
+<img src="Image/More.jpg" width=280 height=300/>
+</figure>
+<figure class="half">
+<img src="Image/Table.jpg" width=280 height=300/>
+</figure>
