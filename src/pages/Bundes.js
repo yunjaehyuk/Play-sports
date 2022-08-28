@@ -4,7 +4,6 @@ import React, { useSelector } from "react"
 import TableFilter from "../component/Table/TableFilter";
 import TableBundes from  '../component/Table/TableBundes'
 function Bundes(props) {
-  let state = useSelector((state) =>state )
 
   return(
 <div>

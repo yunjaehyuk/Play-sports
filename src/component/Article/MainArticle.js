@@ -12,7 +12,7 @@ const MainArticle = () => {
   </div>
   <div className="profile">
     <div className="reporter"> 
-    <img src={process.env.PUBLIC_URL + '/img/spotv.jpg'} class="reporter_avatar"/>
+    <img src={process.env.PUBLIC_URL + '/img/spotv.jpg'} class="reporter_avatar" alt="spotv"/>
     <div className="reporter_name">
       맹봉주 기자
       
@@ -24,7 +24,7 @@ const MainArticle = () => {
     </div>
   <div className="topnews_main">
     <div className="topnews_jpg1">
-    <img src={process.env.PUBLIC_URL + '/img/messi2.jpg'} />
+    <img src={process.env.PUBLIC_URL + '/img/messi2.jpg'} alt="messi2" />
     </div>
     <div className="jpg_content">
     리오넬 메시의 PSG(파리생제르맹) 이적 발표는 많은 축구 팬들에게 충격을 안겼다. 어린 시절부터 바르셀로나에서만 뛰며 세계 최고 선수로 거듭난 메시다. 778경기 672골로 바르셀로나 역대 최다 득점 선수이기도 하다.
@@ -50,7 +50,7 @@ const MainArticle = () => {
 </div>
 
 <div className="topnews_jpg2">
-<img src={process.env.PUBLIC_URL + '/img/messi3.jpg'} /> 
+<img src={process.env.PUBLIC_URL + '/img/messi3.jpg'} alt="messi3"/> 
 </div>
 <span className='topnews_jpg2_content'>
 ▲ 지난해 여름, 메시가 PSG 이적을 발표했을 당시 모습. 메시는 많은 눈물을 흘렸다.

@@ -12,7 +12,7 @@ const Profile3 = (props) => {
     </div>
     <div className="profile">
       <div className="profile_image">
-      <img src={process.env.PUBLIC_URL + '/img/중앙일보.png'} class="reporter_avatar"/>
+      <img src={process.env.PUBLIC_URL + '/img/중앙일보.png'} class="reporter_avatar" alt="avatar"/>
 
       </div>
       <div className="reporter"> 

@@ -102,15 +102,7 @@ let data4= createSlice({
     {rank : 20, name : 'VEN', GP: 38, W: 6, D: 9, L: 23,F: 34,A: 69,GD: -35, P: 27},
   ]
 })
-let League = createSlice({
-   name: 'League',
-   initialState : [
-    {name: 'EnglishPremierLeague'},
-    {name: 'LaLiga'},
-    {name: 'GermanBundesliga'},
-    {name: 'ItalianSerieA'}
-   ]
-})
+
 let profile = createSlice({
   name: 'profile',
   initialState : [
