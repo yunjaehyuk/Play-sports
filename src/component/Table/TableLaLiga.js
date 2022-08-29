@@ -6,7 +6,6 @@ const TableLaliga = () => {
   let state = useSelector((state) =>state )
   return (
     <React.Fragment>
-    <div className='League-title'>Spanish League</div>
     <Table className='League-table'>
   <thead>
   </thead>

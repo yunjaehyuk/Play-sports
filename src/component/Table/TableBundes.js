@@ -5,7 +5,6 @@ const TableBundes = () => {
   let state = useSelector((state) =>state )
   return(
     <div>
-    <div className='League-title'>German Bundesliga</div>
 <Table className='League-table'>
   <thead>
   </thead>
