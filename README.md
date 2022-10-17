@@ -1,4 +1,4 @@
-<img src="Image/playlogo.jpg">
+<img src="./public/Image/playlogo.jpg">
 
 ### Introduce
 
@@ -27,32 +27,32 @@ Naver 플랫폼에 의하여 스포츠 정보를 얻는다는 것에 한계가 �
 ### 페이지 구성
 
 <figure class="half">
-<img src="./Image/home.jpg" width=280 height=300/>
+<img src="./public/Image/home.jpg" width=280 height=300/>
 <p>서비스의 첫 화면을 보여준다.</p>
 <br/>
-<img src="./Image/News.jpg" width=280 height=300/>
+<img src="./public/Image/News.jpg" width=280 height=300/>
 <p>메인 뉴스이다.</p>
 <br/>
 </figure>
 <figure class="half">
-<img src="./Image/Login.jpg" width=280 height=300/>
+<img src="./public/Image/Login.jpg" width=280 height=300/>
 <p>로그인 페이지.</p>
 <br/>
-<img src="./Image/Logout.jpg" width=280 height=300/>
+<img src="./public/Image/Logout.jpg" width=280 height=300/>
 <p>로그인과 로그아웃이 가능하다.</p>
 <br/>
 </figure>
 <figure class="half">
-<img src="Image/Game.jpg" width=280 height=300/>
+<img src="./public/Image/Game.jpg" width=280 height=300/>
 <p>각 스포츠 리그별 일정이 확인 가능하다.</p>
 <br/>
-<img src="Image/More.jpg" width=280 height=300/>
+<img src="./public/Image/More.jpg" width=280 height=300/>
 <p>리그 별 순위 표를 확인할 수 있다.</p>
 <br/>
 </figure>
 <figure class="half">
-<img src="Image/Table.jpg" width=280 height=300/>
+<img src="./public/Image/Table.jpg" width=280 height=300/>
 <br/>
-<img src="Image/Calendar.jpg" width=280 height=300/>
+<img src="./public/Image/Calendar.jpg" width=280 height=300/>
 <p>자신이 원하는 리그 일정을 기록할 수 있다.</p>
 </figure>
