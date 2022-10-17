@@ -1,17 +1,15 @@
 import React from "react";
 import Header from "../layout/Header";
-import Morebar from "../component/More/Morebar"
+import Morebar from "../component/more/Morebar";
 import Navbar from "../layout/Navbar";
 const More = (props) => {
-return(
-
-  <React.Fragment>
-<Header></Header>
-<Morebar navigate={props.navigate}></Morebar>
-<Navbar navigate={props.navigate}></Navbar>
-
-</React.Fragment>
-)
-}
+  return (
+    <React.Fragment>
+      <Header />
+      <Morebar navigate={props.navigate} />
+      <Navbar navigate={props.navigate} />
+    </React.Fragment>
+  );
+};
 
 export default More;

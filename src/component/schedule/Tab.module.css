@@ -1,0 +1,20 @@
+.Tab {
+  margin-bottom: 80px;
+  margin-top: 12px;
+}
+.Tab_games {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+  margin: 0px 5px;
+}
+.Tab_name {
+  margin: 10px;
+  font-weight: 300;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+.Tab_game {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 10px;
+}

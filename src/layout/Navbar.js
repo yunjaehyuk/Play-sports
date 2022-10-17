@@ -2,22 +2,24 @@ import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars,faGamepad,faHouse, } from "@fortawesome/free-solid-svg-icons";
 
-import classes from './Navbar.module.css'
+import styles from './Navbar.module.css'
 import { TiHome } from "react-icons/ti"
+import { useNavigate } from 'react-router-dom';
 const Navbar = (props) => {
+  const navigate = useNavigate()
   return (
     <div>
-          <div className={classes.Navbar}>
-            <div className={classes.Navbar_Button}onClick={()=>{{props.navigate('/')}}}>
+          <div className={styles.Navbar}>
+            <div className={styles.Navbar_Button}onClick={()=>{{navigate('/')}}}>
             <TiHome size="57"/>
             <div>Home</div>
             </div>
-            <div  className={classes.Navbar_Button}onClick={()=>{{props.navigate('/Game')}}}>
+            <div  className={styles.Navbar_Button}onClick={()=>{{navigate('/Game')}}}>
             <FontAwesomeIcon icon={faGamepad} size="3x"/>
             <FontAwesomeIcon icon={['fal', 'code']} />
             <div>Game</div>
             </div>
-            <div  className={classes.Navbar_Button}onClick={()=>{{props.navigate('/More')}}}>
+            <div  className={styles.Navbar_Button}onClick={()=>{{navigate('/More')}}}>
             <FontAwesomeIcon icon={faBars} size = '3x'/>
             <div>More</div>
             </div>

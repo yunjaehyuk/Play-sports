@@ -2,31 +2,31 @@
   margin-bottom: 50px;
   height: 100%;
 }
-.more-title {
-  border-bottom: 1px solid rgba(0,0,0,0.2);
+.more_title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;
   font-size: 20px;
   font-weight: 700;
-  padding:18px;
+  padding: 18px;
 }
-.league:hover{
- background-color: #d6d6d6;
+.league:hover {
+  background-color: #d6d6d6;
 }
-.league{
+.league {
   display: flex;
   align-items: center;
   cursor: pointer;
   padding: 15px 0px;
 }
-.league-name{
+.league_name {
   margin-left: 20px;
   font-weight: 500;
 }
-.league-icon {
-  margin-left:18px;
+.league_icon {
+  margin-left: 18px;
 }
-.league-icon img {
+.league_icon img {
   width: 40px;
   height: 50px;
 }

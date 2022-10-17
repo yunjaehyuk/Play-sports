@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 import { Nav, Container, Navbar } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
 import classes from "./BackHeader.module.css";
 import {
   faArrowLeft
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useNavigate } from "react-router-dom";
 const BackHeader = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate()
   return (
     <Fragment>
       <header className={classes.header}>

@@ -5,7 +5,7 @@ const Article1 = () =>{
  <div>
   <div className="topnews_main">
     <div className="topnews_jpg1">
-    <img src={process.env.PUBLIC_URL + '/img/salah.jpg'} />
+    <img src={process.env.PUBLIC_URL + '/Image/salah.jpg'} />
     </div>
     <div className="jpg_content">
   이집트 축구 스타 살라. 2022.06.05.

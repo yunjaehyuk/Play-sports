@@ -1,24 +1,20 @@
 import React, { Fragment } from "react";
 import { Nav, Container, Navbar } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import classes from "./Header.module.css";
-import {
-  faSearch,
-  faMagnifyingGlass,
-  faUser,
-} from "@fortawesome/free-solid-svg-icons";
+import styles from "./Header.module.css";
+import {  faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Header = () => {
   let navigate = useNavigate();
   return (
     <Fragment>
-      <header className={classes.header}>
+      <header className={styles.header}>
 
         <Navbar variant="light">
           <Container>
-            <div className={classes['header_name']}>
+            <div className={styles['header_name']}>
             <div
-              className={classes.title}
+              className={styles.title}
               onClick={() => {
                 navigate("/");
               }}
@@ -28,12 +24,12 @@ const Header = () => {
               </div>
               <div>
 
-            <Nav className={classes.headericons}>
+            <Nav className={styles.headericons}>
               <Nav.Link href="#home"></Nav.Link>
               <Nav.Link href="#features"></Nav.Link>
-              <div className={classes.headericon}>
+              <div className={styles.headericon}>
  
-                <div className={classes.headerusericon} onClick={()=>{navigate('/Login')}}>
+                <div className={styles.headerusericon} onClick={()=>{navigate('/Login')}}>
                   <FontAwesomeIcon icon={faUser} size="2x" />
                 </div>
               </div>

@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Libre+Baskerville:wght@700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Libre+Baskerville:wght@700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 * {
   box-sizing: border-box;
 }
 .App {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: 140vh;
+  width: 100%;
 }
-

@@ -146,6 +146,6 @@ export default configureStore({
     cart2:data2.reducer,
     cart3:data3.reducer,
     cart4:data4.reducer,
-    profile:profile.reducer
+    profile:profile.reducer                  //reducer
   }
 }) 
