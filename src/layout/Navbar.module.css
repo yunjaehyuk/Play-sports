@@ -5,22 +5,24 @@
   bottom: 0;
   display: flex;
   background-color: white;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-left: 430px;
-  margin:auto;
+  margin: auto;
   width: 90%;
   max-width: 40rem;
-  border-top: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-.Navbar_Button{
+.Navbar_Button {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 10px 20px;
-  margin:5px;
+  margin: 5px;
+  cursor: pointer;
 }
-.Navbar_Button:hover,focus{
+.Navbar_Button:hover,
+focus {
   border-radius: 15px;
   background-color: #b2b2b2;
 }

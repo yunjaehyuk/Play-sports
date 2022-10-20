@@ -4,21 +4,6 @@ const MainArticle = () => {
   return (
     <div>
       <React.Fragment>
-        <div className="topnews_title">
-          PSG와 계약 종료까지 1년… 메시, <br></br>
-          바르사 복귀 가능성은?
-        </div>
-        <div className="profile">
-          <div className="reporter">
-            <img
-              src={process.env.PUBLIC_URL + "/img/spotv.jpg"}
-              class="reporter_avatar"
-              alt="spotv"
-            />
-            <div className="reporter_name">맹봉주 기자</div>
-          </div>
-          <div className="news_time">June 11 11:49 am</div>
-        </div>
         <div className="topnews_main">
           <div className="topnews_jpg1">
             <img

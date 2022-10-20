@@ -131,4 +131,4 @@ const LoginForm = ({ onLogin, authService }) => {
   );
 };
 
-export default LoginForm;
+export default React.memo(LoginForm);

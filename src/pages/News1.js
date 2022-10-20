@@ -1,7 +1,7 @@
 import React from "react";
 import BackHeader from "../layout/BackHeader";
 import Article1 from "../component/article/Article1";
-import Profile1 from "../component/article/Profile1";
+import Profile1 from "../component/Profile/Profile1";
 
 const News1 = () => {
   return (

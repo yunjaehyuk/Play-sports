@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import classes from './LoginNavigation.module.css';
-import Button from '../UI/Button';
+import classes from "./LoginNavigation.module.css";
+import Button from "../UI/Button";
 const LoginNavigation = (props) => {
   return (
     <nav className={classes.nav}>
@@ -16,4 +16,4 @@ const LoginNavigation = (props) => {
   );
 };
 
-export default LoginNavigation;
+export default React.memo(LoginNavigation);

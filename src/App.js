@@ -18,7 +18,6 @@ import News2 from "./pages/News2";
 import News3 from "./pages/News3";
 import News4 from "./pages/News4";
 import News5 from "./pages/News5";
-import Maker from "./component/maker/maker";
 
 const App = ({ authService }) => {
   const navigate = { useNavigate };
@@ -82,10 +81,6 @@ const App = ({ authService }) => {
             }
           />
           <Route path="/Calendar" element={<Calendar navigate={navigate} />} />
-          <Route
-            path="/maker"
-            element={<Maker navigate={navigate} authService={authService} />}
-          />
         </Routes>
       </Layout>
     </div>

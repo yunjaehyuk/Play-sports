@@ -27,8 +27,7 @@ Naver 플랫폼에 의하여 스포츠 정보를 얻는다는 것에 한계가 �
 ### 페이지 구성
 
 <figure class="half">
-<img src="./public/Image/home.jpg" width=280 height=300/>
-<p>서비스의 첫 화면을 보여준다.</p>
+<img src="./public/준다.</p>
 <br/>
 <img src="./public/Image/News.jpg" width=280 height=300/>
 <p>메인 뉴스이다.</p>

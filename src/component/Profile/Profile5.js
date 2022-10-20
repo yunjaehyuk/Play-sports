@@ -6,13 +6,13 @@ const Profile5 = () => {
   return (
     <React.Fragment>
       <div>
-        <div className={styles.news_title}>{state.profile[4].title}</div>
+        <div className={styles.news_title}>{state.profile[5].title}</div>
         <div className={styles.profile}>
-          {state.profile[4].image}
+          {state.profile[5].image}
           <div className={styles.reporter}>
-            <div className={styles.reporter_name}>{state.profile[4].name}</div>
+            <div className={styles.reporter_name}>{state.profile[5].name}</div>
           </div>
-          <div className={styles.time}>{state.profile[4].time}</div>
+          <div className={styles.time}>{state.profile[5].time}</div>
         </div>
       </div>
     </React.Fragment>

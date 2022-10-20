@@ -1,7 +1,7 @@
 import React from "react";
 import BackHeader from "../layout/BackHeader";
 import Article3 from "../component/article/Article3";
-import Profile3 from "../component/article/Profile3";
+import Profile3 from "../component/Profile/Profile3";
 const News3 = () => {
   return (
     <React.Fragment>

@@ -39,4 +39,4 @@ function TabScore({ tap }) {
   }
 }
 
-export default TabScore;
+export default React.memo(TabScore);

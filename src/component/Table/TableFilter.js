@@ -22,4 +22,4 @@ const TableFilter = (props) => {
   );
 };
 
-export default TableFilter;
+export default React.memo(TableFilter);

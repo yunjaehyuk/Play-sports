@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import React from "react";
 import TableLaliga from "../component/table/TableLaLiga";
 import BackHeader from "../layout/BackHeader";

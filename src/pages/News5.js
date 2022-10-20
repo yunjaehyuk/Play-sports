@@ -1,8 +1,8 @@
 import React from "react";
 import BackHeader from "../layout/BackHeader";
 import Article5 from "../component/article/Article5";
-import Profile5 from "../component/article/Profile5";
-const News5 = (props) => {
+import Profile5 from "../component/Profile/Profile5";
+const News5 = () => {
   return (
     <React.Fragment>
       <BackHeader></BackHeader>
