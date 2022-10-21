@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import store from "./store.js";
 import { Provider } from "react-redux";
 import "./index.module.css";
-import App from "./app";
+import App from "./App";
 import "./fontawesome";
 import { BrowserRouter } from "react-router-dom";
 import ScrollToTop from "./layout/ScrollToTop.js";
@@ -17,7 +17,6 @@ root.render(
         <ScrollToTop />
         <App authService={authService} />
       </BrowserRouter>
-      asdffffffffffff
     </Provider>
   </React.StrictMode>
 );
