@@ -22,7 +22,6 @@ import News5 from "./pages/News5";
 const App = ({ authService }) => {
   const navigate = { useNavigate };
   const [filterdYear, setFilterdYear] = useState("2021-22");
-
   const changeFilter = (selectedYear) => {
     setFilterdYear(selectedYear);
   };

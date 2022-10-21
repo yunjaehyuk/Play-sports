@@ -5,13 +5,11 @@ import TableFilter from "../component/table/TableFilter";
 import BackHeader from "../layout/BackHeader";
 function Epl({ navigate, selected, onChangeFilter }) {
   return (
-    <React.Fragment>
-      <Card>
-        <BackHeader navigate={navigate} />
-        <TableFilter selected={selected} onChangeFilter={onChangeFilter} />
-        <TableEpl />
-      </Card>
-    </React.Fragment>
+    <Card>
+      <BackHeader navigate={navigate} />
+      <TableFilter selected={selected} onChangeFilter={onChangeFilter} />
+      <TableEpl />
+    </Card>
   );
 }
 export default Epl;
