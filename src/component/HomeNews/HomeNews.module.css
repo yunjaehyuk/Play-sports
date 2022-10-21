@@ -38,7 +38,6 @@
 }
 .SportTopNews {
   display: flex;
-  margin-top: 5px;
   padding: 13px 5px;
   border-radius: 5px;
   cursor: pointer;
