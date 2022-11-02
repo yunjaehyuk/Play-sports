@@ -5,7 +5,7 @@ const Profile3 = () => {
   let state = useSelector((state) => state);
   return (
     <React.Fragment>
-      <div className={styles.news}>
+      <div>
         <div className={styles.news_title}>{state.profile[3].title}</div>
         <div className={styles.profile}>
           <div className={styles.reporter}>
