@@ -19,7 +19,7 @@ import News3 from "./pages/News3";
 import News4 from "./pages/News4";
 import News5 from "./pages/News5";
 
-const App = ({ authService }) => {
+const App = () => {
   const navigate = { useNavigate };
   const [filterdYear, setFilterdYear] = useState("2021-22");
   const changeFilter = (selectedYear) => {
@@ -30,7 +30,7 @@ const App = ({ authService }) => {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Login" element={<Login authService={authService} />} />
+          <Route path="/Login" element={<Login />} />
           <Route path="/Game" element={<Game />} />
           <Route path="/More" element={<More />} />
           <Route path="/MainNews" element={<MainNews />} />

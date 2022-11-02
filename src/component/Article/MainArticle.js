@@ -1,22 +1,16 @@
 import React from "react";
-import styles from "./MainArticle.module.css";
+import styles from "./Article.module.css";
 const MainArticle = () => {
   return (
-    <div>
-      <React.Fragment>
-        <div className={styles.topnews_main}>
-          <div className={styles.topnews_jpg1}>
-            <img
-              src={process.env.PUBLIC_URL + "/img/messi2.jpg"}
-              alt="messi2"
-            />
-          </div>
-          <div className={styles.jpg_content}>
-            리오넬 메시의 PSG(파리생제르맹) 이적 발표는 많은 축구 팬들에게
-            충격을 안겼다. 어린 시절부터 바르셀로나에서만 뛰며 세계 최고 선수로
-            거듭난 메시다. 778경기 672골로 바르셀로나 역대 최다 득점 선수이기도
-            하다.
-          </div>
+    <React.Fragment>
+      <div className={styles.topnews_main}>
+        <div className={styles.topnews_jpg1}>
+          <img src={process.env.PUBLIC_URL + "/img/messi2.jpg"} alt="messi2" />
+        </div>
+        <div className={styles.jpg_content}>
+          리오넬 메시의 PSG(파리생제르맹) 이적 발표는 많은 축구 팬들에게 충격을
+          안겼다. 어린 시절부터 바르셀로나에서만 뛰며 세계 최고 선수로 거듭난
+          메시다. 778경기 672골로 바르셀로나 역대 최다 득점 선수이기도 하다.
         </div>
         <div className={styles.topnews_content}>
           <div className={styles.topnews_part}>
@@ -72,12 +66,9 @@ const MainArticle = () => {
             메시가 파리에서 재밌게 축구한다면 충분히 성사 가능하다. 일단 PSG는
             메시와 연장 계약을 추진할 것"이라고 알렸다.
           </div>
-          <div>
-            <div className={styles.topnews_jpg1}></div>
-          </div>
         </div>
-      </React.Fragment>
-    </div>
+      </div>
+    </React.Fragment>
   );
 };
 
