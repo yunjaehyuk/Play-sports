@@ -28,7 +28,9 @@ Play 웹페이지는 UI적인 면에서는 사용자들이 편안함을 느끼�
 그래서 이를 위해 나만의 컴포넌트 분리 방식과 폴더 아키텍처를 만들기로 했다.
 
 <h2>Folder architecture</h2>
+<div>
 <img src="./public/img/folder architecture.png">   
+</div>
 <p>
 public -> image 파일 관리
 
@@ -45,6 +47,14 @@ UI -> UI 관리
 app.js -> 컴포넌트 페이지 관리
 
 index.js -> 컴포넌트의 root
+
+이렇게 폴더의 각 용도 별로 분리하여 폴더 구조를 구성하였다. 규칙 없이 개발한 폴더와 비교했을 떄 작성한 코드의 의도와 위치를 쉽게 알아차릴 수 있었고, 이는 더 나은 개발 퍼포먼스를 이끌었다.
+
+useEffect를 이용한 Login 페이지
+
+side Effect를 사용해야할 떄 useEffect를 사용에 대해 왜 사용할까? 언제 사용해야되는 함수일까? 를 고민했다.
+그래서 이 고민에 대해 답하기 위해 실제 프로젝트에 login페이지에서 login을 하면 새로고침해도 여전히 인증 상태에 있다는 것을 확실하게 하고 싶었다. useEffect,localStorage를 적용해서 이 앱이 재실행될 때마다 데이터가 유지되었는지를 확인했다.
+이는 useEffect가 무언가에 대한 응답으로 실행되는 코드를 다루는데, 어떤 액션에 대한 응답으로 실행되는 액션이 있다면 useEffect가 크게 도움된다는 것을 알게 되었다.
 
   </p>
 <figure class="half">

@@ -22,7 +22,7 @@ const passwordReducer = (state, action) => {
   }
   return { value: "", isValid: false };
 };
-const LoginForm = ({ onLogin, authService }) => {
+const LoginForm = ({ onLogin }) => {
   // const [enteredEmail, setEnteredEmail] = useState("");
   // const [emailIsValid, setEmailIsValid] = useState();
   // const [enteredPassword, setEnteredPassword] = useState("");

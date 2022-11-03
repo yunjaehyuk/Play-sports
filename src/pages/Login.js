@@ -4,7 +4,7 @@ import Loginform from "../component/login/Loginform";
 import Logout from "../component/login/Logout";
 import BackHeader from "../layout/BackHeader";
 
-const Login = ({ authService }) => {
+const Login = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {
@@ -29,9 +29,7 @@ const Login = ({ authService }) => {
     <React.Fragment>
       <BackHeader />
       <main>
-        {!isLoggedIn && (
-          <Loginform authService={authService} onLogin={loginHandler} />
-        )}
+        {!isLoggedIn && <Loginform onLogin={loginHandler} />}
         {isLoggedIn && (
           <Logout isAuthenticated={isLoggedIn} onLogout={logoutHandler} />
         )}
