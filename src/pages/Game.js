@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../layout/Header";
 import Navbar from "../layout/Navbar";
-import Schedule from "../component/schedule/Schedule";
+import Schedule from "../component/game/Game";
 const Game = (props) => {
   return (
     <React.Fragment>

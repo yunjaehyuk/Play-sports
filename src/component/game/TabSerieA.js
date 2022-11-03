@@ -4,7 +4,7 @@ import styles from "./Tab.module.css";
 
 const TabSerieA = () => {
   return (
-    <Card>
+    <Card className={styles.Tab}>
       <div className={styles.Tab_games}>
         <div className={styles.Tab_name}>Italian SerieA</div>
         <div className={styles.Tab_game}>

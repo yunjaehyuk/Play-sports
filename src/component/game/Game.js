@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Nav } from "react-bootstrap";
 import TabScore from "./TabScore";
-import styles from "./Schedule.module.css";
+import styles from "./Game.module.css";
 import TapButton from "../../UI/TapButton";
 const Schedule = () => {
   let [tap, setTap] = useState(0);

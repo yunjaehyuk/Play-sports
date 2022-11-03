@@ -6,8 +6,3 @@
   font-family: "Open Sans", sans-serif;
   width: 100%;
 }
-@media (max-width: 768px) {
-  .App {
-    margin: 0;
-  }
-}
