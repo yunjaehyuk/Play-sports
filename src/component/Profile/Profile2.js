@@ -8,7 +8,7 @@ const Profile2 = () => {
       <div>
         <div className={styles.news_title}>{state.profile[2].title}</div>
         <div className={styles.profile}>
-          <img src={process.env.PUBLIC_URL + "/Img/mancity_logo.jpg"} />
+          <img src={process.env.PUBLIC_URL + "/img/mancity_logo.jpg"} />
           <div className={styles.reporter}>
             <div className={styles.reporter_name}>{state.profile[2].name}</div>
           </div>
