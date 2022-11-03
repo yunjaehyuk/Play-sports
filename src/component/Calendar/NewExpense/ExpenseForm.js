@@ -46,8 +46,8 @@ const ExpenseForm = (props) => {
     event.preventDefault();
     if (enteredTitle.trim().length === 0 || enteredAmount.trim().length === 0) {
       setError({
-        title: "Invalid input",
-        message: "Please enter a valid Title and mount (non-empty values).",
+        title: "부적절한 입력",
+        message: "올바른 제목과 금액을 입력하십시오(빈 값이 아님).",
       });
       return;
     }
@@ -107,7 +107,7 @@ const ExpenseForm = (props) => {
           </div>
         </div>
         <div className="new-expense__actions">
-          <button type="submit">Add Expense</button>
+          <button type="submit">Write down</button>
         </div>
       </form>
     </div>

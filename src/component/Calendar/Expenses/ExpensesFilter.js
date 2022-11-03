@@ -10,7 +10,7 @@ const ExpensesFilter = ({ onChangeFilter, selected }) => {
   return (
     <div className="expenses-filter">
       <div className="expenses-filter__control">
-        <label>My calendar</label>
+        <label>My soccer calendar</label>
         <select value={selected} onChange={dropdownChangeHandler}>
           <option value="2022">2022</option>
           <option value="2021">2021</option>
