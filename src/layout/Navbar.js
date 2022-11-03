@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className={styles.game}>
       <div className={styles.Navbar}>
         <div
           className={styles.Navbar_Button}

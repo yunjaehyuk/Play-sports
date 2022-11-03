@@ -1,17 +1,19 @@
 .Navbar {
-  display: flex;
-  background-color: white;
-  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  margin: 0rem auto;
   width: 100%;
+  max-width: 40rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .Navbar_Button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 10px 20px;
-  margin: 5px;
   cursor: pointer;
 }
 .Navbar_Button:hover,

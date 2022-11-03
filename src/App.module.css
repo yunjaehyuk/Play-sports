@@ -4,6 +4,10 @@
 }
 .App {
   font-family: "Open Sans", sans-serif;
-  height: 140vh;
   width: 100%;
+}
+@media (max-width: 768px) {
+  .App {
+    margin: 0;
+  }
 }
