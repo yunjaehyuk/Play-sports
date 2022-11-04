@@ -18,7 +18,7 @@ const Navbar = () => {
             }
           }}
         >
-          <TiHome size="57" />
+          <TiHome size="52" />
           <div>Home</div>
         </div>
         <div
@@ -29,8 +29,11 @@ const Navbar = () => {
             }
           }}
         >
-          <FontAwesomeIcon icon={faGamepad} size="3x" />
-          <FontAwesomeIcon icon={["fal", "code"]} />
+          <FontAwesomeIcon
+            className={styles.Navbar_Buttons}
+            icon={faGamepad}
+            size="3x"
+          />
           <div>Game</div>
         </div>
         <div
